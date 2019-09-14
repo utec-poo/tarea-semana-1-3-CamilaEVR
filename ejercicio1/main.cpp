@@ -1,17 +1,10 @@
 #include <iostream>
-#include "Tipos.h"
 using namespace std;
-
 int main() {
-
-entero base=0, entero altura=0;
-cout << "\ningrese la base:";
-cin >> base;
-cout << "\ningrese la altura:";
-cin >> altura;
-
-
-// ToDO
-
+  double base , altura , area=0;
+  cout<<"Digite el  numero de la base:";cin>>base;
+  cout<<"Digite el numero de la altura:";cin>>altura;
+  area=(base*altura)/2;
+  cout<<"\n La area es:"<<area;
   return 0;
 }
